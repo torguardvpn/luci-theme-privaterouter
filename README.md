@@ -47,11 +47,15 @@ Simple Mode                          Advanced Mode
 ### Modern Dashboard
 Real-time system overview with animated CPU and memory gauges, WAN connection status with IPv4/IPv6 badges, wireless network details, download/upload traffic counters, storage usage bars, VPN tunnel status, and a connected devices list. Quick-access tiles link to the most common settings pages. Auto-refreshes every 5 seconds.
 
+![PrivateRouter LuCI Theme](https://raw.githubusercontent.com/torguardvpn/luci-theme-privaterouter/main/images/9.png)
+
 ### Simple / Advanced Toggle
 A toggle switch in the header bar lets you flip between the simplified UI and the full LuCI interface. In Simple mode, the sidebar shows only the clean, card-based pages. In Advanced mode, every standard LuCI menu appears. Switching to Simple mode from an advanced page automatically redirects you to the Dashboard.
 
 ### Dark Mode
 Full dark mode support across every page, toggle it from the header bar. All cards, forms, gauges, and menus adapt seamlessly using CSS custom properties.
+
+![PrivateRouter LuCI Theme](https://raw.githubusercontent.com/torguardvpn/luci-theme-privaterouter/main/images/5.png)
 
 ### TorGuard VPN Integration
 Built-in pages for managing TorGuard VPN connections directly from the simple UI:
@@ -62,8 +66,12 @@ Built-in pages for managing TorGuard VPN connections directly from the simple UI
 - **Custom WireGuard** -- Bring your own WireGuard configuration from any provider.
 - **VPN Status** -- Overview page showing all active tunnels with connection state, traffic stats, and quick links to each VPN configuration page.
 
+![PrivateRouter LuCI Theme](https://raw.githubusercontent.com/torguardvpn/luci-theme-privaterouter/main/images/4.png)
+
 ### Easy Mesh Wi-Fi
 Set up a mesh network across multiple OpenWrt routers without touching the command line. Choose between Server (Gateway) and Client roles, configure the mesh ID and Wi-Fi settings, enable 802.11k/v/r fast roaming (KVR), and let Easy Mesh handle the batman-adv networking. Includes a step-by-step setup guide modal built right into the page.
+
+![PrivateRouter LuCI Theme](https://raw.githubusercontent.com/torguardvpn/luci-theme-privaterouter/main/images/10.png)
 
 ### Multi-Language Support
 The simple UI is fully translated into **20 languages**, making it accessible to users worldwide:
