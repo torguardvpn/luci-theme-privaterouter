@@ -6,6 +6,8 @@ The PrivateRouter OAT Theme transforms the standard OpenWrt LuCI interface into 
 
 The best part? It installs as a standard LuCI theme and **does not modify any OpenWrt core components**. Your existing LuCI setup stays completely intact, and you can switch back to the full advanced interface at any time with a single toggle.
 
+![PrivateRouter LuCI Theme](https://raw.githubusercontent.com/torguardvpn/luci-theme-privaterouter/main/images/1.png)
+
 ---
 
 ## How It Works
