@@ -86,6 +86,8 @@ The simple UI is fully translated into **20 languages**, making it accessible to
 
 Language selection is available from the header bar with country flag icons. Right-to-left (RTL) layout is fully supported for Arabic and Farsi.
 
+![PrivateRouter LuCI Theme](https://raw.githubusercontent.com/torguardvpn/luci-theme-privaterouter/main/images/8.png)
+
 ### Additional Simple UI Pages
 
 - **Wi-Fi Networks** -- View and edit SSIDs, passwords, encryption, and enable/disable radios
@@ -104,6 +106,8 @@ Language selection is available from the header bar with country flag icons. Rig
 - **Backup & Restore** -- Download and upload router configuration backups
 - **System Update** -- Firmware update management
 - **System Info** -- Hostname, memory, uptime, reboot
+
+![PrivateRouter LuCI Theme](https://raw.githubusercontent.com/torguardvpn/luci-theme-privaterouter/main/images/7.png)
 
 ---
 
