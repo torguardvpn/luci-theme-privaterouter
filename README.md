@@ -1,4 +1,4 @@
-# PrivateRouter OAT Theme for OpenWrt
+# PrivateRouter LuCi Theme for OpenWrt
 
 **A modern, Material Design 3 inspired theme and simplified UI for OpenWrt routers** -- built for beginners, loved by power users.
 
@@ -41,6 +41,8 @@ Simple Mode                          Advanced Mode
 ---
 
 ## Features at a Glance
+
+![PrivateRouter LuCI Theme](https://raw.githubusercontent.com/torguardvpn/luci-theme-privaterouter/main/images/2.png)
 
 ### Modern Dashboard
 Real-time system overview with animated CPU and memory gauges, WAN connection status with IPv4/IPv6 badges, wireless network details, download/upload traffic counters, storage usage bars, VPN tunnel status, and a connected devices list. Quick-access tiles link to the most common settings pages. Auto-refreshes every 5 seconds.
