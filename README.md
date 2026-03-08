@@ -2,7 +2,7 @@
 
 **A modern, Material Design 3 inspired theme and simplified UI for OpenWrt routers** -- built for beginners, loved by OpenWRT nerds.
 
-The PrivateRouter OAT Theme transforms the standard OpenWrt LuCI interface into a clean, card-based experience that anyone can use. No terminal commands, no config files -- just a beautiful web UI for managing your router, your VPN connections, your Wi-Fi mesh network, and more.
+The PrivateRouter LuCi Theme transforms the standard OpenWrt LuCI interface into a clean, card-based experience that anyone can use. No terminal commands, no config files -- just a beautiful web UI for managing your router, your VPN connections, your Wi-Fi mesh network, and more.
 
 The best part? It installs as a standard LuCI theme and **does not modify any OpenWrt core components**. Your existing LuCI setup stays completely intact, and you can switch back to the full advanced interface at any time with a single toggle.
 
@@ -12,7 +12,7 @@ The best part? It installs as a standard LuCI theme and **does not modify any Op
 
 ## How It Works
 
-The OAT Theme sits on top of LuCI as a standard OpenWrt theme package. It uses the same LuCI framework, the same UCI configuration system, and the same ubus RPC calls that power every OpenWrt router. Nothing is patched, replaced, or overwritten.
+The PrivateRouter Theme sits on top of LuCI as a standard OpenWrt theme package. It uses the same LuCI framework, the same UCI configuration system, and the same ubus RPC calls that power every OpenWrt router. Nothing is patched, replaced, or overwritten.
 
 Three packages work together to deliver the experience:
 
@@ -148,7 +148,7 @@ rm -rf /tmp/luci-*
 /etc/init.d/uhttpd restart
 ```
 
-Then open your router's web interface. The OAT theme will be active and you will see the new simplified dashboard.
+Then open your router's web interface. The LuCi theme will be active and you will see the new simplified dashboard.
 
 ### Optional VPN and Mesh Packages
 
