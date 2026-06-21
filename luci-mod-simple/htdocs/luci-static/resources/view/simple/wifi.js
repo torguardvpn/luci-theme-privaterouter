@@ -139,17 +139,17 @@ return view.extend({
 		hero.appendChild(shieldDiv);
 
 		if (ifaces.length === 0) {
-			hero.appendChild(el('div', 'tg-status-text', 'No Wi-Fi Radios'));
-			hero.appendChild(el('div', 'tg-status-sub', 'No wireless interfaces detected on this router'));
+			hero.appendChild(el('div', 'tg-status-text', (window.t||function(k){return k;})('No Wi-Fi Radios')));
+			hero.appendChild(el('div', 'tg-status-sub', (window.t||function(k){return k;})('No wireless interfaces detected on this router')));
 		} else if (activeCount > 0) {
 			var ssids = ifaces.filter(function(i) { return !i.disabled; }).map(function(i) { return i.ssid; });
-			hero.appendChild(el('div', 'tg-status-text', 'Wi-Fi Broadcasting'));
+			hero.appendChild(el('div', 'tg-status-text', (window.t||function(k){return k;})('Wi-Fi Broadcasting')));
 			hero.appendChild(el('div', 'tg-status-sub',
-				activeCount + ' network' + (activeCount !== 1 ? 's' : '') + ' active  \u2022  ' + ssids.join(', ')
+				(window.t||function(k,n){return k.replace('%s',n);})( activeCount !== 1 ? '%s networks active' : '%s network active', activeCount) + '  •  ' + ssids.join(', ')
 			));
 		} else {
-			hero.appendChild(el('div', 'tg-status-text', 'Wi-Fi Disabled'));
-			hero.appendChild(el('div', 'tg-status-sub', 'All wireless networks are turned off'));
+			hero.appendChild(el('div', 'tg-status-text', (window.t||function(k){return k;})('Wi-Fi Disabled')));
+			hero.appendChild(el('div', 'tg-status-sub', (window.t||function(k){return k;})('All wireless networks are turned off')));
 		}
 
 		if (ifaces.length > 0 && activeCount > 0) {

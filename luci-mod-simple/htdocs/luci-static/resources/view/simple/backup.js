@@ -66,7 +66,7 @@ return view.extend({
 		iconDiv.style.boxShadow = '0 0 24px rgba(59,130,246,0.4)';
 		hero.appendChild(iconDiv);
 		hero.appendChild(el('div', 'tg-status-text', 'Backup & Restore'));
-		hero.appendChild(el('div', 'tg-status-sub', configCount + ' config files \u2022 ' + (release.description || 'OpenWrt')));
+		hero.appendChild(el('div', 'tg-status-sub', (window.t||function(k,n){return k.replace('%s',n);})('%s config files', configCount) + ' \u2022 ' + (release.description || 'OpenWrt')));
 
 		var stats = el('div', 'tg-stats');
 		var s1 = el('div', 'tg-stat');
