@@ -1040,11 +1040,11 @@ return view.extend({
 
 		var subParts = [];
 		if (isOnline) {
-			subParts.push(activeLabel);
+			subParts.push((window.t||function(k){return k;})(activeLabel));
 			if (inetIP) subParts.push(inetIP);
-			if (activeInet && activeInet.uptime) subParts.push('Up ' + formatUptime(activeInet.uptime));
+			if (activeInet && activeInet.uptime) subParts.push((window.t||function(k,n){return k.replace('%s',n);})('Up %s', formatUptime(activeInet.uptime)));
 		} else {
-			subParts.push('No active internet connection');
+			subParts.push((window.t||function(k){return k;})('No active internet connection'));
 		}
 		hero.appendChild(el('div', 'tg-status-sub', subParts.join('  \u2022  ')));
 
